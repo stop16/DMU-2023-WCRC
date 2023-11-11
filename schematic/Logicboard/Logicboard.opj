@@ -1,0 +1,106 @@
+(ExpressProject "Logicboard"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\logicboard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MG90S
+      (FullPartName "MG90S.Normal")
+      (LibraryName "C:\USERS\CHRIS\DESKTOP\WCRC\CAD\LOGICBOARD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("IR Sensor"
+      (FullPartName "IR Sensor.Normal")
+      (LibraryName "C:\USERS\CHRIS\DESKTOP\WCRC\CAD\LOGICBOARD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (RC522
+      (FullPartName "RC522.Normal")
+      (LibraryName "C:\USERS\CHRIS\DESKTOP\WCRC\CAD\LOGICBOARD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (A000005
+      (FullPartName "A000005.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\A000005.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L293D
+      (FullPartName "L293D.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\MISC.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Users\chris\Desktop\WCRC\Cad\Logicboard")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\chris\Desktop\WCRC\Cad\Logicboard\logicboard.dsn")
+      (Path "Design Resources"
+         "C:\Users\chris\Desktop\WCRC\Cad\Logicboard\logicboard.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\chris\Desktop\WCRC\Cad\Logicboard\library1.olb")
+      (Select "Design Resources"
+         "C:\Users\chris\Desktop\WCRC\Cad\Logicboard\logicboard.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 413"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1473 130 582")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2418 589")
+        (Zoom "476"))
+      (Path "C:\USERS\CHRIS\DESKTOP\WCRC\CAD\LOGICBOARD\LIBRARY1.OLB")
+      (Package "IR Sensor"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1499 156 608")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2418 637")
+        (Zoom "476"))
+      (Path "C:\USERS\CHRIS\DESKTOP\WCRC\CAD\LOGICBOARD\LIBRARY1.OLB")
+      (Package "MG90S"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 504")
+        (Scroll "89 171")
+        (Zoom "110")
+        (Occurrence "/"))
+      (Path "C:\USERS\CHRIS\DESKTOP\WCRC\CAD\LOGICBOARD\LOGICBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
